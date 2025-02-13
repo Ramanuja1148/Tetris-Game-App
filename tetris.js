@@ -173,7 +173,7 @@ function createPiece(type){
     }
 }
 
-function drawGame(){
+ function drawGame(){
     //draw matrix
     context.fillStyle='#000'
     context.fillRect(0,100, canvas.width, canvas.height)
@@ -238,7 +238,7 @@ function drawGameOverScreen(){
 function drawMainMenu(){
     context.fillStyle='#303040'
     context.fillRect(0,0, canvas.width, canvas.height)
-    context.fillStyle='green'
+    context.fillStyle='white'
     context.font = '32px Russo One';
     context.textAlign = "center";
     context.fillText("Lets Play..", canvas.width /2, canvas.height /2)
@@ -611,6 +611,7 @@ document.getElementById('tetris').addEventListener('click', function(){
 });
 
 update();
+
 
 
 
